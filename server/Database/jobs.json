@@ -1,0 +1,178 @@
+[
+  {
+    "Company_ID": "9",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Program Manager II, Google Workspace, Privacy",
+    "Role": "Lead complex, multi-disciplinary projects from start to finish, working with stakeholders to plan requirements, manage project schedules, identify risks, and communicate clearly with cross-functional partners across the company. Your projects will often span offices, time zones, and hemispheres. It's your job to coordinate the players and keep them up to date on progress and deadlines. Manage privacy programs, defining milestones and success criteria, resource allocation and successful on-time delivery. Conduct product privacy vulnerability assessments and provide concrete feedback to mitigate challenges. Ensure compliance with Google policies, laws and regulations relating to privacy. Communicate schedules, priorities, and status to all levels in the Google Workspace organization",
+    "Location": "Reston VA",
+    "Remote": false,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://jobs.asugsvsummit.com/companies/google-24698/jobs/26021161-program-manager-ii-google-workspace-privacy?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "9",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Software Engineer intern at Google",
+    "Role": "You will design, develop, and deploy consumer hardware. Additionally, you will participate in the design, analysis, and prototyping of new concepts. You will also work in a manufacturing and product-oriented development environment, collaborating with vendors and outside sources to see parts through to manufacture. Perform performance validation and simulation using C/C++ and RTL-based models, as well as performance correlation. Analysis results will be conducted in both qualitative and quantitative fashion. Create tools/scripts to automate test suites and models, improving the functionality of simulators.",
+    "Location": "New York NY",
+    "Remote": false,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://www.talent.com/view?id=b138a5907755&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "2",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Machine Learning / AI Internships",
+    "Role": "Within Apples Artificial Intelligence and Machine Learning organization (AIML), you can take part in the ongoing revolution that machine learning plays in daily life. We are offering exciting internship opportunities to explore new methods, apply machine learning to solve ambitious problems, advance state-of-the-art technology by researching and publishing, challenge existing metrics or protocols, and develop new insightful theories that will impact the way we understand machine learning and the experiences it can enable.",
+    "Location": "remote",
+    "Remote": true,
+    "PayRange": "150K-200K",
+    "URLRedirection": "https://jobs.apple.com/th-th/details/200480066/machine-learning-ai-internships?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "2",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Director, Commercial Litigation",
+    "Role": "You will be responsible for formulating and driving litigation strategy and have a natural ability to lead and collaborate. You will communicate with individuals at all levels and in all roles, including executives, engineers, business partners and adversaries, as well as thrive in uncertain situations that require seasoned judgment and agility.",
+    "Location": "Washington DC",
+    "Remote": false,
+    "PayRange": "250K-300K",
+    "URLRedirection": "https://jobs.apple.com/en-us/details/200513345/director-commercial-litigation?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "3",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Software Development Engineer, Ring",
+    "Role": "Design and build web application components for consumption and usage. Ensure the performance, quality, and responsiveness of applications through architectural input and mentoring peers. Collaborate with a cross-functional agile team to define, design, and ship new features. Work with other team members to investigate design approaches, prototype new technology, and evaluate technical feasibility. Identify and correct bottlenecks and fix bugs. Help maintain code quality, organization, and automatization.",
+    "Location": "Malvern PA",
+    "Remote": false,
+    "PayRange": "150K-200K",
+    "URLRedirection": "https://www.ziprecruiter.com/c/Amazon/Job/Software-Development-Engineer,-Ring/-in-Malvern,PA?jid=4f4ceccaa622955b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "3",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Amazon Internships Summer 2023 Business",
+    "Role": "The Amazon Internships Summer 2023 Business & Corporate Development Internship Program in Allentown is a 10-12 week program that aims to develop students skills and knowledge in the areas of business and corporate development. During this program, you will work on challenging projects that will help you grow professionally and personally. You will have the opportunity to work with experienced professionals and learn from their wealth of knowledge and experience.",
+    "Location": "remote",
+    "Remote": true,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://www.internshipskey.com/job/amazon-internship-summer-business-corporate-development-program/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "4",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Microsoft Product Manager: Intern Opportunities for University Students",
+    "Role": "A Product Manager Intern defines and executes product strategy and roadmap, builds products, and connects with consumers. This opportunity will allow you to experience the full product life cycle, develop deep business acumen, and hone your decision-making skills. A Product Manager Intern is typically responsible for specific features in our technology solutions for the full product cycle. They work on the initial feature planning and design, manage the specifications of their development, and monitor their ongoing operation to better understand customer experiences. A Product Manager Intern collaborates with teammates to ensure our products exceed customer expectations. They communicate throughout the process to understand progress towards delivery, address technical challenges, and provide clarity on customer needs using a data-driven approach.",
+    "Location": "remote",
+    "Remote": true,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://careers.gbbcouncil.org/companies/microsoft/jobs/28883778-product-manager-intern-opportunities-for-university-students-multiple-locations?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "4",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Microsoft Principal Hardware Quality Engineer",
+    "Role": "Develop and implement a robust supplier quality management strategy to ensure data center hardware is manufactured at the highest level of quality standards. Provide leadership to work across data centers, development, and suppliers to resolve critical and high-severity issues. Conduct hands-on debugging in global data centers (onsite and virtual), including Graphics Processing Units (GPU), and sub-system failure analysis. Drive the continuous improvement process based on Root Cause Analysis (RCA) and identified opportunities. Manage multiple New Product Introduction (NPI) builds and quality phase-gate deliverables for the manufacturing team throughout the engineering development lifecycle, from concept through production readiness. Establish Critical-to-Quality performance metrics to measure and improve product quality. Act as the voice of quality in the hardware change management process, ensuring quality requirements are considered and met.",
+    "Location": "Austin Tx",
+    "Remote": false,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://www.indeed.com/viewjob?jk=8d1506a39680ab5f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "10",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Meta Software Engineer (University Grad)",
+    "Role": "Develop a strong understanding of the relevant product area, codebase, and/or systems. Demonstrate proficiency in data analysis, programming, and software engineering. Produce high-quality code with good test coverage, using modern abstractions and frameworks. Work independently, use available resources to get unblocked, and complete tasks on schedule by exercising strong judgment and problem-solving skills. Master Facebooks development standards from developing to releasing code in order to take on tasks and projects with increasing levels of complexity. Actively seek and give feedback in alignment with Facebooks Performance Philosophy.",
+    "Location": "remote",
+    "Remote": true,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://www.linkedin.com/jobs/view/software-engineer-university-grad-at-meta-3761322078?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "10",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Meta Network Production Engineer, Intern",
+    "Role": "Your primary function will be to ensure that the network and its related services are reliable, robust, and can scale to meet the challenges that serving over a billion users presents. Manage and maintain multi-vendor, multi-protocol datacenter and backbone networks. Define and develop optimized network monitoring and automation systems. Partner alongside the best engineers in the industry on the coolest stuff around; the code and systems you work on will be in production and used to support billions of users all around the world.",
+    "Location": "Menlo Park CA",
+    "Remote": false,
+    "PayRange": "200K-250K",
+    "URLRedirection": "https://www.indeed.com/viewjob?jk=f0fba5ed72f7179f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "6",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Tesla Collision Technician",
+    "Role": "Follow standards and work in teams. Perform structural and cosmetic repairs on Tesla Model S, Model X, Model Y, and Model 3 vehicles in accordance with Tesla-specific repair procedures. Use Celette Frame Jigs for setting new structural components. Glue, rivet, and weld structural components being replaced. Repair exterior cosmetic panels via metal finishing and body filler. Replace all parts associated with collision repair, including body panels, suspension parts, vehicle structure, radiators, airbags, and trim. Proficient in MIG welding.",
+    "Location": "remote",
+    "Remote": true,
+    "PayRange": "150K-200K",
+    "URLRedirection": "https://www.indeed.com/viewjob?jk=b1ed1f1d2308beca&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "6",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Tesla Internship, Service Technician Trainee (Spring 2024)",
+    "Role": "In the Tech Trainee Intern role, you will be servicing customer vehicles and completing hands-on tasks at the service center. In addition to being a team player, excellent oral and written communication is desired as you will be in a customer-facing role. Performs entry-level work in the inspection, repair, and service of Tesla electric vehicles. Operate a variety of hand, power, and shop tools. Perform equipment inspections, adjustments, and certifications. Perform Pre-Delivery Inspections (PDI) of new cars. Maintain inventory, records of time, shop supplies, and parts. Help maintain the vehicle cleanliness of customer cars. Support Parts & Front of House operations as needed or on a rotational basis.",
+    "Location": "Devon PA",
+    "Remote": false,
+    "PayRange": "100K-150K",
+    "URLRedirection": "https://www.indeed.com/viewjob?jk=34471a87ac683bd3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "7",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Netflix Software Engineer, Content Engineering",
+    "Role": "Work cross-functionally to build new services, tools, and data models to operationalize our workflows at scale. Participate in product reviews and team meetings, providing technical insight. Help scope, estimate, and prioritize between conflicting needs. Evaluate new technologies and approaches to streamline and improve our rapid application development tooling and conventions. Regularly learn new systems and tools as the Netflix platform and ecosystem evolves. Participate in our on-call rotation and contribute to incident reviews.",
+    "Location": "Mexico MD",
+    "Remote": false,
+    "PayRange": "200K-250K",
+    "URLRedirection": "https://www.karkidi.com/job-details/29738-software-engineer-content-engineering-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "7",
+    "Type": "Job",
+    "Category": "Internship",
+    "Description": "Netflix Internship 2023 Program Latest Application",
+    "Role": "Interested in an entertainment career? Explore the incredible opportunities offered by the Netflix internship program. Global reach and innovation have made Netflix a powerhouse. This coveted internship provides a gateway to a plethora of jobs in the dynamic field of media and entertainment. Netflix internships are the hottest summer jobs for students and recent graduates alike. Get invaluable insight, sharpen your skills, and immerse yourself in streaming. Don’t miss out on this incredible chance – apply for a Netflix internship today!",
+    "Location": "New York NY",
+    "Remote": false,
+    "PayRange": "150K-200K",
+    "URLRedirection": "https://yourinternship.online/netflix-internship/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "8",
+    "Type": "Job",
+    "Category": "Newgrad",
+    "Description": "Twitter Backend Software Engineer",
+    "Role": "The position involves unifying the developer experience by developing a set of robust APIs that allow easy access for developers to use Twitter data. As part of the team, you will design, architect, and implement scalable backend systems that provide a consistent and reliable developer experience through our APIs. The Twitter Developer Platform is home to the Twitter API, aiming to enable developers to understand, learn, enhance, and engage with the public conversation. This includes everyone from everyday hobbyists to enterprise businesses, allowing them to interact with Twitter data in real-time. The software processes, enriches, and delivers hundreds of billions of Tweets through a wide variety of APIs, presenting the challenge of delivering an excellent customer experience at scale.",
+    "Location": "New York NY",
+    "Remote": false,
+    "PayRange": "50K-100K",
+    "URLRedirection": "https://geebo.com/jobs-online/view/id/1066462518-backend-software-engineer-twitter-/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+  },
+  {
+    "Company_ID": "8",
+    "Type": "Conference",
+    "Category": "Internship",
+    "Description": "Tapia Conference",
+    "Role": "The Tapia Conference, created to bring together undergraduate and graduate students, faculty, researchers, and professionals in computing from all backgrounds and ethnicities.",
+    "Location": "San Diego CA",
+    "Remote": false,
+    "PayRange": "0K-50K",
+    "URLRedirection": "https://cmd-it.org/tapia-conference/"
+  }
+]

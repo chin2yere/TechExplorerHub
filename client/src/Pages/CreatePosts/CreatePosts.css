@@ -1,0 +1,27 @@
+.group-postForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.label-postForm {
+  font-size: 20px;
+
+  padding-right: 20px;
+}
+.inputs-postForm {
+  width: 700px;
+  height: 30px;
+  border-radius: 16px;
+}
+.description {
+  width: 700px;
+  height: 200px;
+  overflow-y: auto;
+
+  resize: both;
+  border-radius: 16px;
+}
+.create-posts {
+  padding: 30px;
+}

@@ -1,0 +1,23 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: rgba(106, 164, 88, 0.836);
+}
+.button-sidebar {
+  background-color: rgba(106, 164, 88, 0.836);
+  width: 300px;
+  height: 70px;
+}
+.button-sidebar-active {
+  background-color: rgba(182, 201, 176, 0.836);
+  width: 300px;
+  height: 70px;
+}
+.button-sidebar-pressed {
+  background-color: rgba(37, 71, 26, 0.836);
+  width: 300px;
+  height: 70px;
+}

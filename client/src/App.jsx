@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { UserContext, JobsContext } from "./UserContext";
-import Home from "./Pages/HOME/Home";
+import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Posts from "./Pages/Posts/Posts";
 import CreatePosts from "./Pages/CreatePosts/CreatePosts";

@@ -157,7 +157,7 @@ users will be able to filter opportunities based on a number of predefined categ
 
 1. A subset of pages require the user to log in before accessing the content.
    Users can log in and log out via GitHub OAuth with Passport.js.
-   [gif goes here]
+   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/cefa701be0bd453e962e240f86299af7?sid=975de0ce-0f07-436d-87c9-04c247d531ea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 2. There will be a chat feature
    [gif goes here]

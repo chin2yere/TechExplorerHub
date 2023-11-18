@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { UserContext, JobsContext } from "./UserContext";
+import { UserContext, JobsContext, ApiUrlContext } from "./UserContext";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Posts from "./Pages/Posts/Posts";
@@ -12,6 +12,10 @@ import Bookmarks from "./Pages/Bookmarks/Bookmarks";
 import JobForm from "./Pages/JobForm/JobForm";
 import Admin from "./Pages/Admin/Admin";
 function App() {
+  const apiUrlContext =
+    process.env.NODE_ENV === "production"
+      ? "http://techexplorerhub-server.up.railway.app"
+      : "http://localhost:3000";
   const [jobsContext, setJobsContext] = useState(() => {
     try {
       // Retrieve the user data from storage or set it to null if not found
@@ -51,19 +55,21 @@ function App() {
     <div className="app">
       <UserContext.Provider value={{ userContext, setUserContext }}>
         <JobsContext.Provider value={{ jobsContext, setJobsContext }}>
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={userContext ? <Home /> : <Login />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/posts" element={<Posts />} />
-              <Route path="/posts/create" element={<CreatePosts />} />
-              <Route path="/jobs" element={<Opportunities />} />
-              <Route path="/jobs/:id" element={<JobDetails />} />
-              <Route path="/bookmarks" element={<Bookmarks />} />
-              <Route path="/jobs/create" element={<JobForm />} />
-              <Route path="/admin" element={<Admin />} />
-            </Routes>
-          </BrowserRouter>
+          <ApiUrlContext.Provider value={{ apiUrlContext }}>
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={userContext ? <Home /> : <Login />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/posts" element={<Posts />} />
+                <Route path="/posts/create" element={<CreatePosts />} />
+                <Route path="/jobs" element={<Opportunities />} />
+                <Route path="/jobs/:id" element={<JobDetails />} />
+                <Route path="/bookmarks" element={<Bookmarks />} />
+                <Route path="/jobs/create" element={<JobForm />} />
+                <Route path="/admin" element={<Admin />} />
+              </Routes>
+            </BrowserRouter>
+          </ApiUrlContext.Provider>
         </JobsContext.Provider>
       </UserContext.Provider>
     </div>

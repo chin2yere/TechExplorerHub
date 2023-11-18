@@ -2,20 +2,21 @@ import React from "react";
 import "./Posts.css";
 import { useEffect, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import PostCard from "../../Components/PostCard/PostCard";
 //import { useState } from "react";
 
 export default function Posts() {
   const navigate = useNavigate();
   const { userContext } = useContext(UserContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const [allPosts, setAllPosts] = useState([]);
   const [parsedPosts, setParsedPosts] = useState([]);
   const [search, setSearch] = useState("");
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const url = `http://localhost:3000/posts`;
+        const url = `${apiUrlContext}/posts`;
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);

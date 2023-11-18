@@ -1,17 +1,18 @@
 import React from "react";
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import "./Admin.css";
 import AdminCards from "../../Components/AdminCards/AdminCards";
 export default function Admin() {
   const navigate = useNavigate();
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const { setUserContext } = useContext(UserContext);
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const url = `http://localhost:3000/posts`;
+        const url = `${apiUrlContext}/posts`;
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);

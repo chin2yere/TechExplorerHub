@@ -2,7 +2,7 @@ import React from "react";
 import "./PostCard.css";
 import { FcLikePlaceholder } from "react-icons/fc";
 import { FcLike } from "react-icons/fc";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import { useEffect, useState, useContext } from "react";
 
 export default function PostCard({
@@ -14,6 +14,7 @@ export default function PostCard({
   pending,
 }) {
   const { userContext } = useContext(UserContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const [liked, setLiked] = useState(() => {
     if (likes[userContext.id] && likes[userContext.id] === true) {
       return true;
@@ -44,7 +45,7 @@ export default function PostCard({
       }
       // Make the create product API request
 
-      const response = await fetch(`http://localhost:3000/post/${id}`, {
+      const response = await fetch(`${apiUrlContext}/post/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

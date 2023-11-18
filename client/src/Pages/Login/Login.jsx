@@ -1,17 +1,18 @@
 import React from "react";
 import { useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import "./Login.css";
 
 export default function Login() {
   const { setUserContext } = useContext(UserContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const navigate = useNavigate();
   //setUserContext(null);
 
   const handleLogin = async () => {
     try {
-      const url = `http://localhost:3000/user/${"githubId"}/${1}`;
+      const url = `${apiUrlContext}/user/${"githubId"}/${1}`;
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);
@@ -24,7 +25,7 @@ export default function Login() {
   };
   const handleAdminLogin = async () => {
     try {
-      const url = `http://localhost:3000/user/${"githubId"}/${5}`;
+      const url = `${apiUrlContext}/user/${"githubId"}/${5}`;
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);

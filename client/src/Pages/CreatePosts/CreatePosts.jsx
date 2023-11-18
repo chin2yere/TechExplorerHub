@@ -1,10 +1,11 @@
 import React from "react";
 import { useState, useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import "./CreatePosts.css";
 
 export default function CreatePosts() {
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const navigate = useNavigate();
   const { userContext } = useContext(UserContext);
   const [title, setTitle] = useState("");
@@ -15,7 +16,7 @@ export default function CreatePosts() {
     try {
       // Make the create product API request
 
-      const response = await fetch(`http://localhost:3000/post`, {
+      const response = await fetch(`${apiUrlContext}/post`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

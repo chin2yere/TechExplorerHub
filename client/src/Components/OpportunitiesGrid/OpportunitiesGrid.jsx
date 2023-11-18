@@ -1,19 +1,21 @@
 import React from "react";
 import { JobsContext } from "../../UserContext";
 import { useState, useEffect, useContext } from "react";
+import { ApiUrlContext } from "../../UserContext";
 import { Link } from "react-router-dom";
 import OpportunityCard from "../OpportunityCard/OpportunityCard";
 import "./OpportunitiesGrid.css";
 
 export default function OpportunitiesGrid({ tab, filter }) {
   const { setJobsContext } = useContext(JobsContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const [allJobs, setAllJobs] = useState([]);
   const [parsedJobs, setParsedJobs] = useState([]);
 
   useEffect(() => {
     const fetchOpportunities = async () => {
       try {
-        const url = `http://localhost:3000/jobs`;
+        const url = `${apiUrlContext}/jobs`;
         const response = await fetch(url);
         const data = await response.json();
 

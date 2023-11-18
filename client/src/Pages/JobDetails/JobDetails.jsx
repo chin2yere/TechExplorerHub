@@ -1,11 +1,12 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { ApiUrlContext } from "../../UserContext";
 import { useLocation, Link } from "react-router-dom";
 import "./JobDetails.css";
 
 export default function JobDetails() {
   const [job, setJob] = useState({});
-
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const location = useLocation();
   const data = location.state; // Access the passed props
   const jobId = data.jobId;
@@ -14,7 +15,7 @@ export default function JobDetails() {
   useEffect(() => {
     const handleFetchJob = async () => {
       try {
-        const url = `http://localhost:3000/job/${"id"}/${jobId}`;
+        const url = `${apiUrlContext}/job/${"id"}/${jobId}`;
         const response = await fetch(url);
         const data = await response.json();
         //console.log(data);

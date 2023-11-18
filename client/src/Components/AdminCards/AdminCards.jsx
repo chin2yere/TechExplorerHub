@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { ApiUrlContext } from "../../UserContext";
 import "./AdminCards.css";
 export default function AdminCards({
   title,
@@ -9,6 +10,7 @@ export default function AdminCards({
   pending,
   id,
 }) {
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const [falsePending, setFalsePending] = useState(pending);
   function toggleApproval() {
     setFalsePending(!falsePending);
@@ -18,7 +20,7 @@ export default function AdminCards({
 
     // Make the create product API request
     try {
-      const response = await fetch(`http://localhost:3000/post/${id}`, {
+      const response = await fetch(`${apiUrlContext}/post/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

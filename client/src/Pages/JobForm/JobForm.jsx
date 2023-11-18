@@ -1,10 +1,12 @@
 import * as React from "react";
 import "./JobForm.css";
 import { useState, useContext, useEffect } from "react";
+import { ApiUrlContext } from "../../UserContext";
 import { Link, useNavigate } from "react-router-dom";
 //import { UserContext, IdContext } from "../../UserContext";
 //this page basically collects information that is needed to make a network call to create a new job
 export default function JobForm() {
+  const { apiUrlContext } = useContext(ApiUrlContext);
   const [Category, setCategory] = useState("");
   const [Company_ID, setCompany_ID] = useState("");
   const [Type, setType] = useState("");
@@ -35,7 +37,7 @@ export default function JobForm() {
     try {
       // Make the create product API request
 
-      const response = await fetch(`http://localhost:3000/job`, {
+      const response = await fetch(`${apiUrlContext}/job`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -1,11 +1,12 @@
 import React from "react";
 import { useContext, useState } from "react";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 import { Link } from "react-router-dom";
 import "./OpportunityCard.css";
 
 export default function OpportunityCard({ description, location, id }) {
   const { userContext, setUserContext } = useContext(UserContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
   console.log(userContext);
   const [bookedmarkedJobs, setBookmarkedJobs] = useState({
     ...userContext.savedjobs,
@@ -29,7 +30,7 @@ export default function OpportunityCard({ description, location, id }) {
         // Make the create product API request
 
         const response = await fetch(
-          `http://localhost:3000/user/${userContext.id}`,
+          `${apiUrlContext}/user/${userContext.id}`,
           {
             method: "PATCH",
             headers: {

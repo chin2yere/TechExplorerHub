@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: [Chinyere]
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: https://techexplorerhub-client.up.railway.app/
 
 ## About
 
@@ -53,15 +53,17 @@ https://www.loom.com/share/43bfa5aa58a24d6b975e6f15edd1cd6f?sid=3f0b1165-1738-4d
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/43bfa5aa58a24d6b975e6f15edd1cd6f?sid=8bcd29ff-d373-4b21-9bac-d0f5d48b6ecc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ### [ Railway ]
 
-The web app is deployed on Railway with all pages and features working.
-[gif goes here]
+The web app is deployed on Railway with all pages and features working.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8b6c6e34ab2d4b7da6fe1b3479200faa?sid=5ba91912-e46d-46ea-bb9e-3344ddd88c37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Backend Features
 
 ### [Database relationship]
 
-The web app implements a one to many database relationship in Postgres:
-[gif goes here]
+The web app implements a one to many database relationship in Postgres:✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91d956ceca83449fa9667f6afa649a3f?sid=c3ea690b-e87f-470c-92e1-94fec5496181" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [Server routing] ✅
 
@@ -75,20 +77,21 @@ https://www.loom.com/share/3adf23799b404ef0989ea0578c584629?sid=888b39ba-e539-44
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3adf23799b404ef0989ea0578c584629?sid=2b38a353-49b8-4d00-9549-1b0cea58fbb6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ### [Database reset]
-The web app implements the ability to reset the database to its default state.
-
+The web app implements the ability to reset the database to its default state.✅
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8b6c6e34ab2d4b7da6fe1b3479200faa?sid=5ba91912-e46d-46ea-bb9e-3344ddd88c37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ### Frontend features
 
 ### [ Redirection]
 
-The application will contain links to actual internship job postings
+The application will contain links to actual internship job postings✅
 
-[gif goes here]
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/dc87dbf156cd490aa35eba144e935d52?sid=e10aeb5e-38ea-493e-b5a6-a878c115c460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [Same page interaction]
 
-The web app implements at least one interaction that the user can initiate and complete on the same page without navigating to a new page.
-[gif goes here]
+The web app implements at least one interaction that the user can initiate and complete on the same page without navigating to a new page.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91d956ceca83449fa9667f6afa649a3f?sid=c3ea690b-e87f-470c-92e1-94fec5496181" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [React router implementation]
 
@@ -111,40 +114,44 @@ https://www.loom.com/share/65629f1c4c0b4a84a5ee432404c43869?sid=c3588ca6-d4f2-47
 
 ### [Error handling]
 
-The web app gracefully handles errors.
-[gif goes here]
+The web app gracefully handles errors.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91d956ceca83449fa9667f6afa649a3f?sid=c3ea690b-e87f-470c-92e1-94fec5496181" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [one to one relationship]
 
-The web app includes a one-to-one database relationship.
-[gif goes here]
+The web app includes a one-to-one database relationship.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91d956ceca83449fa9667f6afa649a3f?sid=c3ea690b-e87f-470c-92e1-94fec5496181" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [Slide out pane]
 
-The web app includes a slide-out pane or modal as appropriate for your use case.
-[gif goes here]
+The web app includes a slide-out pane or modal as appropriate for your use case.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/dc87dbf156cd490aa35eba144e935d52?sid=e10aeb5e-38ea-493e-b5a6-a878c115c460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [Interface differences]
 
-There will be a difference in the user and admin interface
+There will be a difference in the user and admin interface✅
 
-[gif goes here]
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8b6c6e34ab2d4b7da6fe1b3479200faa?sid=5ba91912-e46d-46ea-bb9e-3344ddd88c37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ### [Custom route]
 
-The web app includes a custom non-RESTful route with corresponding controller actions.
-[gif goes here]
+The web app includes a custom non-RESTful route with corresponding controller actions.✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91d956ceca83449fa9667f6afa649a3f?sid=c3ea690b-e87f-470c-92e1-94fec5496181" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [Filtering and sorting]
 
-users will be able to filter opportunities based on a number of predefined categories
-[gif goes here]
+users will be able to filter opportunities based on a number of predefined categories✅
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/dc87dbf156cd490aa35eba144e935d52?sid=e10aeb5e-38ea-493e-b5a6-a878c115c460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### [ Create routings]
 
-1. Data is automatically generated in response to a certain event or user action. Examples include generating a default inventory for a new user starting a game or creating a starter set of tasks for a user creating a new task app account.
-2. Data submitted via a POST or PATCH request is validated before the database is updated.
-   [gif goes here]
+1. Data is automatically generated in response to a certain event or user action. Examples include generating a default inventory for a new user starting a game or creating a starter set of tasks for a user creating a new task app account.✅
+2. Data submitted via a POST or PATCH request is validated before the database is updated.✅
+   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8b6c6e34ab2d4b7da6fe1b3479200faa?sid=5ba91912-e46d-46ea-bb9e-3344ddd88c37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Stretch features
 

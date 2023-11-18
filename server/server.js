@@ -23,9 +23,7 @@ app.use(express.json()); // Middleware for parsing JSON bodies from HTTP request
 app.use(morgan("tiny"));
 
 app.use("/", router);
-app.get("/", (req, res) => {
-  res.redirect(CLIENT_URL);
-});
+
 app.get("/", (req, res) => {
   res.send("<h1>Video Games API</h1>");
 });

@@ -7,35 +7,66 @@ import "./Login.css";
 export default function Login() {
   const { setUserContext } = useContext(UserContext);
   const { apiUrlContext } = useContext(ApiUrlContext);
+  const AUTH_URL = `${apiUrlContext}/auth/github`;
   const navigate = useNavigate();
   //setUserContext(null);
+  useEffect(() => {
+    const getUser = async () => {
+      const response = await fetch(`${apiUrlContext}/auth/login/success`, {
+        credentials: "include",
+      });
+      const json = await response.json();
+      setUserContext(json.user);
+    };
+    getUser();
+  }, [apiUrlContext]);
+  // const handleLogin = async () => {
+  //   try {
+  //     const url = `${apiUrlContext}/user/${"githubId"}/${1}`;
+  //     const response = await fetch(url);
+  //     const data = await response.json();
+  //     console.log(data);
+  //     setUserContext(data);
+  //     navigate("/");
+  //   } catch (error) {
+  //     // Handle any network or API request errors
+  //     alert("Login failed: " + error);
+  //   }
+  // };
+  // const handleAdminLogin = async () => {
+  //   console.log("heyy");
+  //   try {
+  //     const response = await fetch(`${apiUrlContext}/auth/login/success`, {
+  //       credentials: "include",
+  //     });
+  //     const json = await response.json();
 
-  const handleLogin = async () => {
-    try {
-      const url = `${apiUrlContext}/user/${"githubId"}/${1}`;
-      const response = await fetch(url);
-      const data = await response.json();
-      console.log(data);
-      setUserContext(data);
-      navigate("/");
-    } catch (error) {
-      // Handle any network or API request errors
-      alert("Login failed: " + error);
-    }
-  };
-  const handleAdminLogin = async () => {
-    try {
-      const url = `${apiUrlContext}/user/${"githubId"}/${5}`;
-      const response = await fetch(url);
-      const data = await response.json();
-      console.log(data);
-      setUserContext(data);
-      navigate("/admin");
-    } catch (error) {
-      // Handle any network or API request errors
-      alert("Login failed: " + error);
-    }
-  };
+  //     const temporaryUser = json.user;
+  //     console.log(temporaryUser);
+  //     if (temporaryUser.is_admin == true) {
+  //       console.log("jj");
+  //       setUserContext(temporaryUser);
+  //       navigate("/admin");
+  //     } else {
+  //       alert("Admin access only");
+  //     }
+  //     setUserContext(json.user);
+  //   } catch (error) {
+  //     // Handle any network or API request errors
+  //     alert("Login failed: " + error);
+  //   }
+
+  // try {
+  //   const url = `${apiUrlContext}/user/${"githubId"}/${5}`;
+  //   const response = await fetch(url);
+  //   const data = await response.json();
+  //   console.log(data);
+  //   setUserContext(data);
+  //   navigate("/admin");
+  // } catch (error) {
+  //   // Handle any network or API request errors
+  //   alert("Login failed: " + error);
+  // }
 
   return (
     <div className="login">
@@ -64,15 +95,17 @@ export default function Login() {
           technology and equipping students with the skills and knowledge needed
           to excel in the digital landscape.
         </p>
-        <button className="login-button" onClick={handleAdminLogin}>
-          Login as admin
-        </button>
+        <a href={AUTH_URL}>
+          {/* <button className="login-button" onClick={() => handleAdminLogin}>
+            Login as admin
+          </button> */}
+        </a>
         <br></br>
         <br />
         <br />
-        <button className="login-button" onClick={handleLogin}>
-          Login via github
-        </button>
+        <a href={AUTH_URL}>
+          <button className="login-button">Login via github</button>
+        </a>
       </div>
     </div>
   );

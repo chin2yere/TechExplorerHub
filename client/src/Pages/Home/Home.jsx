@@ -1,15 +1,25 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { UserContext } from "../../UserContext";
+import { UserContext, ApiUrlContext } from "../../UserContext";
 
 import "./Home.css";
 
 export default function Home() {
   const { userContext, setUserContext } = useContext(UserContext);
+  const { apiUrlContext } = useContext(ApiUrlContext);
+  console.log(userContext);
+  //const AUTH_URL = `${apiUrlContext}/logout`;
   const navigate = useNavigate();
   const handleLogout = () => {
-    setUserContext(null);
+    const logout = async () => {
+      const url = `${apiUrlContext}/auth/logout`;
+      const response = await fetch(url, { credentials: "include" });
+      await response.json();
+      setUserContext(null);
+      navigate("/");
+    };
+    logout();
   };
   const navigateToPosts = () => {
     navigate("/posts");
@@ -92,7 +102,10 @@ export default function Home() {
           </p>
           <button onClick={navigateToCreatePosts}>Create Post</button>
           &nbsp;&nbsp;&nbsp;
-          <button onClick={navigateToPosts}>View Post</button>
+          <button onClick={navigateToPosts}>View Post</button>&nbsp;&nbsp;&nbsp;
+          {userContext.is_admin == true && (
+            <button onClick={() => navigate("/admin")}>Admin Access</button>
+          )}
         </div>
       </div>
       <div className="row3-home">

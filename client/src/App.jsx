@@ -66,7 +66,16 @@ function App() {
                 <Route path="/jobs/:id" element={<JobDetails />} />
                 <Route path="/bookmarks" element={<Bookmarks />} />
                 <Route path="/jobs/create" element={<JobForm />} />
-                <Route path="/admin" element={<Admin />} />
+                <Route
+                  path="/admin"
+                  element={
+                    userContext && userContext.is_admin == true ? (
+                      <Admin />
+                    ) : (
+                      <Home />
+                    )
+                  }
+                />
               </Routes>
             </BrowserRouter>
           </ApiUrlContext.Provider>

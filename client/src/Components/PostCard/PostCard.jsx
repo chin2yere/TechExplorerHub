@@ -15,8 +15,9 @@ export default function PostCard({
 }) {
   const { userContext } = useContext(UserContext);
   const { apiUrlContext } = useContext(ApiUrlContext);
+  const userId = userContext.id;
   const [liked, setLiked] = useState(() => {
-    if (likes[userContext.id] && likes[userContext.id] === true) {
+    if (likes[userId] && likes[userId] === true) {
       return true;
     } else {
       return false;

@@ -115,5 +115,15 @@
     },
     "Role": "Recruiter",
     "is_admin": false
+  },
+  {
+    "githubId": "80971217",
+    "username": "chin2yere",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/80971217?v=4",
+    "accessToken": "chin2yere",
+
+    "savedJobs": { "1": true, "2": true, "3": true, "5": true },
+    "Role": "Student",
+    "is_admin": true
   }
 ]

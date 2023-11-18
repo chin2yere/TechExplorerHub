@@ -1,5 +1,5 @@
 import React from "react";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { UserContext, ApiUrlContext } from "../../UserContext";
 import { Link } from "react-router-dom";
 import "./OpportunityCard.css";
@@ -7,10 +7,11 @@ import "./OpportunityCard.css";
 export default function OpportunityCard({ description, location, id }) {
   const { userContext, setUserContext } = useContext(UserContext);
   const { apiUrlContext } = useContext(ApiUrlContext);
-  console.log(userContext);
+  //console.log(userContext);
   const [bookedmarkedJobs, setBookmarkedJobs] = useState({
     ...userContext.savedjobs,
   });
+
   function bookmarkButton() {
     const handleUpdateBookmarks = async (e) => {
       //e.preventDefault();
@@ -51,8 +52,15 @@ export default function OpportunityCard({ description, location, id }) {
 
         if (response.ok) {
           const updateUserContext = { ...userContext };
+          console.log(parsedObj);
           updateUserContext.savedjobs = { ...parsedObj };
           setUserContext(updateUserContext);
+          console.log(updateUserContext);
+          //localStorage.removeItem("userContext");
+          // localStorage.setItem(
+          //   "userContext",
+          //   JSON.stringify(updateUserContext)
+          // );
 
           //setUserContext(data);
         } else {

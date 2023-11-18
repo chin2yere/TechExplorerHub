@@ -9,7 +9,7 @@ import setup from "./Database/setup.js";
 setup();
 const CLIENT_URL =
   process.env.NODE_ENV === "production"
-    ? "http://techexplorerhub-client.up.railway.app"
+    ? "https://techexplorerhub-client.up.railway.app"
     : "http://localhost:5173";
 const app = express();
 app.use(

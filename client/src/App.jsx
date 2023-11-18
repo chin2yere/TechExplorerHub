@@ -14,7 +14,7 @@ import Admin from "./Pages/Admin/Admin";
 function App() {
   const apiUrlContext =
     process.env.NODE_ENV === "production"
-      ? "http://techexplorerhub-server.up.railway.app"
+      ? "https://techexplorerhub-server.up.railway.app"
       : "http://localhost:3000";
   const [jobsContext, setJobsContext] = useState(() => {
     try {

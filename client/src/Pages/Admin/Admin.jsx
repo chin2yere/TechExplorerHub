@@ -30,11 +30,11 @@ export default function Admin() {
     <div>
       <button
         onClick={() => {
-          setUserContext(null);
+          //setUserContext(null);
           navigate("/");
         }}
       >
-        Logout
+        Go to home
       </button>
       {posts.map((post) => (
         <AdminCards
